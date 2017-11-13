@@ -2,7 +2,16 @@
     "name": "nicholas-eden/menu",
     "description": "A dynamic menu system for handling complex restaurant menus.",
     "type": "library",
+    "autoload": {
+        "psr-0": {
+            "Menu": "src/"
+        }
+    },
     "require": {
         "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "phpunit/dbunit": "^3.0"
     }
 }
