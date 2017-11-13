@@ -1,0 +1,8 @@
+{
+    "name": "nicholas-eden/menu",
+    "description": "A dynamic menu system for handling complex restaurant menus.",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^1.23"
+    }
+}
